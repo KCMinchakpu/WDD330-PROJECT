@@ -16,7 +16,7 @@ function openPage(pageName, elmnt, color) {
     document.getElementById(pageName).style.display = "block";
   
     // Add the specific color to the button used to open the tab content
-    elmnt.style.backgroundColor = color;
+    elmnt.style.backgroundColor = "#04AA6D";
   }
   
   // Get the element with id="defaultOpen" and click on it
