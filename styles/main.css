@@ -339,6 +339,11 @@ body, html {
   
 }
 
+.tablink:active {
+	background-color: #04AA6D;
+  color: white;
+}
+
 .tablink:hover {
   background-color: #faa627;
 }
