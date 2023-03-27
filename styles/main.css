@@ -1,0 +1,360 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+body {
+	padding: 0;
+	margin: 10px;
+    font-size: 16px; 
+    line-height: 1.5rem;
+	max-width: 100%;
+	max-width: 100%;
+    font-family: 'Roboto', 'Arial', serif;
+}
+
+.headertop {
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    background-color:
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+
+.logo img {
+	width: 315px;
+	height: auto;
+	margin-right: 20px;
+	margin-left: 100px;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+    
+    margin-left: 10px;
+	font-family: 'Lora', 'Arial', san serif; 
+	color: white;
+}
+
+.headings h1 {
+	font-size: 1.5rem;
+    margin: 0;
+	/* text-shadow: 1px 1px gray; */
+}
+
+.eliora {
+    font-size: 1rem;
+    margin: 0;
+	margin-left: 40px;
+	color:gainsboro
+}
+
+.eliakim {
+	
+	color:orange;
+	text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa {
+	display:grid;
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	float: right;
+
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+	border: 2px solid;
+	border-color: gainsboro;
+	  margin-right: 50px;
+  }
+  
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+	margin-left: 650px;
+	border: 2px solid;
+	border-color: gainsboro;
+  }
+
+header {
+	background-color: #24292f;
+	padding: .8rem 0;	
+	box-shadow: -1px -1px 10px 10px rgba(63, 65, 63, 0.5);	
+}
+
+.date {
+	display:flex;
+	font-size: .8rem;
+	letter-spacing: 2px;
+	text-align: center;
+	/* border: 2px solid blue; */
+	padding: 10px;
+	margin-top: 20px;
+	margin-right: 15px;
+	margin-left: 15px;
+	color:gainsboro;
+
+    }
+
+    main{
+        display: block;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+
+
+/* Footer Section */
+
+footer {
+    display: block;
+    background-color: #24292f;
+	justify-items: center;
+	text-align: center; 
+	color: white;
+	padding: .5rem;
+    box-shadow: -1px -1px 10px 10px rgba(63, 65, 63, 0.5);
+	font-family: 'Lora', 'Arial', serif;
+	font-size: 0.8rem;
+
+}
+.logofooter img {
+    width: 160px;
+    height: auto;
+    margin-top:10px;
+}
+.location {
+	padding-bottom: 1rem;
+	font-size: .9rem;
+}
+
+ /*Author Section */
+  .author {
+    display: block;
+	padding-top: 1rem;
+	font-family: 'Roboto', 'Arial', serif;;
+    font-size: .9rem;
+	border-top: 2px solid white;
+    padding-bottom:2rem;
+  }
+
+
+/* slideshow */
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+
+.mySlides {
+  display: none;
+  width:100%;
+  height: 100%;
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Caption text */
+.slidecontent {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 50%; 
+  padding: 20px;
+  margin-left: 350px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.slideimg {
+  width:100%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  align-items: center;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/* Services */
+
+.services {
+	margin-top: 30px;
+}
+
+.amccimg {
+	width: 100%;
+	overflow: hidden;
+}
+
+.service-item {
+	background-color: #f7f7f7;
+	padding: 30px;
+}
+
+.down-content h4 {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.25px;
+	margin-bottom: 15px;
+}
+.down-content p {
+	margin-bottom: 20px;
+}
+
+.down-content {
+	background-color: #f7f7f7;
+	padding: 30px;
+}
+
+.section-heading {
+	text-align: center;
+	margin-bottom: 80px;
+  margin-top: 10px;
+}
+
+.section-heading h2 {
+	font-size: 36px;
+	font-weight: 600;
+	color: #1e1e1e;
+}
+
+.section-heading em {
+	font-style: normal;
+	color: #a4c639;
+}
+
+.section-heading span {
+	display: block;
+	margin-top: 10px;
+  margin-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #444;
+	letter-spacing: 1px;
+}
+
+.col-md-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}
+.col-md-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
+
+
+
+
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+@media (min-width:576px){.container{max-width:540px}}
+@media (min-width:768px){.container{max-width:720px}}
+@media (min-width:992px){.container{max-width:960px}}
+@media (min-width:1200px){.container{max-width:1140px}}
+.container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+
+
+/* Responsive Style */
+@media (max-width: 768px) {
+  .services .service-item {
+		margin-bottom: 30px;
+  }
+}
+
+/* Tabbed Menu */
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #444;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 16.666%;
+  
+}
+
+.tablink:hover {
+  background-color: #faa627;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: block;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: gainsboro;}
+#Aboutamcc {background-color: gainsboro;}
+#Discoverabuja {background-color: gainsboro;}
+#Directory {background-color: gainsboro;}
+#Contactus {background-color: gainsboro;}
+#Joinus {background-color: gainsboro;}
+

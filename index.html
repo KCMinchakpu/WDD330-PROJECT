@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abuja Metropolis Chamber of Commerce!</title>
+    <meta name="description" content="description"/>
+    <meta name="author" content="author" />
+    <meta name="keywords" content="keywords" />
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+    <style type="text/css">.body { width: auto; }</style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+  <body>
+ <!-- Header Container -->
+    <header>
+    <div class="meeting">
+    <h2 class="eliakim">Come join us in the chamber meeting and greet Wednesday at 10:00 a.m. WAT</h2>
+    </div>
+    <section class="headertop">
+    <div class="logo">
+    <picture>
+    <img src="images/amcc_logo.png" alt="Logo"></picture>
+    </div>
+    <div class="social">
+    <section class="media">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    </section>
+		<div>      
+    <p class="date">Today: <span id="datetime"></span></p><script>var dt = new Date();
+					document.getElementById("datetime").innerHTML=dt.toLocaleString();</script> 
+    </div>
+    </header>
+
+  <!-- Menu Container -->
+   
+<button class="tablink" onclick="openPage('Home', this, 'gainsboro')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Aboutamcc', this, 'gainsboro')">About AMCC</button>
+<button class="tablink" onclick="openPage('Discoverabuja', this, 'gainsboro')">Discover Abuja</button>
+<button class="tablink" onclick="openPage('Directory', this, 'gainsboro')">Directory</button>
+<button class="tablink" onclick="openPage('Contactus', this, 'gainsboro')">Contact Us</button>
+<button class="tablink" onclick="openPage('Joinus', this, 'gainsboro')">Join Us</button>
+
+<div id="Home" class="tabcontent">
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+   <img class="slideimg" src="images/slide_01.jpg" alt="Slide image">
+   <div class="slidecontent">
+    <h1>WELCOME TO ABUJA</h1>
+     </div>
+  </div>
+
+  <div class="mySlides fade">
+    <img class="slideimg" src="images/slide_02.jpg" alt="Slide Image">
+    <div class="slidecontent">
+    <h1>NIGERIA SEAT OF POWER</h1>
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+    <img class="slideimg"  src="images/slide_03.jpg" alt="Slide Image">
+    <div class="slidecontent">
+    <h1>DO BUSINESS</h1>
+      </div>
+  </div>
+
+</div>
+
+<div id="Aboutamcc" class="tabcontent">
+  <h3>About AMCC</h3>
+  <p>Some news this fine day!</p>
+</div>
+
+<div id="Discoverabuja" class="tabcontent">
+  <h3>Discover Abuja</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+<div id="Directory" class="tabcontent">
+  <h3>Directory</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+<div id="Contactus" class="tabcontent">
+  <h3>Contact Us</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="Joinus" class="tabcontent">
+  <h3>Join Us</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+    
+
+  
+
+  <!-- Footer Container -->
+<footer>
+<section class="logofooter">
+<picture>
+<img src="images/amcc_logo.png" alt ="Footer logo">
+</picture>
+</section>
+<section  class="location">
+<div>Abuja Metropolis Chamber of Commerce</div>
+<div>45 Accra Street, Wuse Zone 5, Abuja 950002</div>
+</section>
+<section class="contact">
+<div>info@amcc.com</div>
+<div>+234(0)8068-1332-69</div>
+<div><a href="https://goo.gl/maps/NjH6ai9eiHeP6eoo6"><img src="images/amcc.png" alt="Abuja Metroplis chamber location"></a>Location Map</div>
+</section>
+<section class="author">   
+        <div>&copy; <span id="year"></span> Abuja Metropolis Chamber of Commerce | Kevin Cross Minchakpu | WDD330 Project | <span id="lastupdated"></span></div>
+</section>
+</footer>
+<script src="js/slides.js"></script>
+<script src="js/topnav.js"></script>
+<script src="js/tabbedmenu.js"></script>
+</body>
+</html>
