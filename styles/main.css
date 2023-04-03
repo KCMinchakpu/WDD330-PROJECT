@@ -358,3 +358,30 @@ body, html {
 #Contactus {background-color: gainsboro;}
 #Joinus {background-color: gainsboro;}
 
+/* Discover Abuja */
+
+
+.image {
+	float:right;
+	padding-top: 10px;
+}
+
+.city{
+	padding-top: 10px;
+	text-align: center;
+}
+
+.cityp{
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: #444;
+	font-weight: bold;
+}
+
+.cityp2{
+	margin-right: 920px;
+	text-align: justify;
+	font-size: 20px;
+}
