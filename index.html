@@ -34,14 +34,15 @@
     </div>
     </header>
 
-  <!-- Menu Container -->
-   
-<button class="tablink" onclick="openPage('Home', this, 'gainsboro')" id="defaultOpen">Home</button>
-<button class="tablink" onclick="openPage('Aboutamcc', this, 'gainsboro')">About AMCC</button>
-<button class="tablink" onclick="openPage('Discoverabuja', this, 'gainsboro')">Discover Abuja</button>
-<button class="tablink" onclick="openPage('Directory', this, 'gainsboro')">Directory</button>
-<button class="tablink" onclick="openPage('Contactus', this, 'gainsboro')">Contact Us</button>
-<button class="tablink" onclick="openPage('Joinus', this, 'gainsboro')">Join Us</button>
+<!-- Tabbed Menu -->
+<button class="tablink" onclick="openPage('Home', this, '#04AA6D')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('About', this, '#04AA6D')">About AMCC</button>
+<button class="tablink" onclick="openPage('Discover', this, '#04AA6D')">Discover Abuja</button>
+<button class="tablink" onclick="openPage('Directory', this, '#04AA6D')">Directory</button>
+<button class="tablink" onclick="openPage('Join', this, '#04AA6D')">Join Us</button>
+<button class="tablink" onclick="openPage('Contact', this, '#04AA6D')">Contact Us</button>
+
+<!-- Tabbed Menu End -->
 
 <div id="Home" class="tabcontent">
   <!-- Slideshow container -->
@@ -68,54 +69,126 @@
     <h1>DO BUSINESS</h1>
       </div>
   </div>
-
+</div>
 </div>
 
-<div id="Aboutamcc" class="tabcontent">
-  <h3>About AMCC</h3>
-  <p>Some news this fine day!</p>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
 </div>
 
-<div id="Discoverabuja" class="tabcontent">
-  <div>
-    <span class="image">
-  <picture>
-    <img src="images/placeholder900x506.webp" data-src="images/abuja.webp" alt="Abuja Aerial View">
-</picture>
-    </span>
-            <h1 class="city">Discover Abuja</h1>
-            <p class="cityp">Africa's Fastest Growing City</p>
-        </div>
+<div id="Discover" class="tabcontent">
+  <div class="row">
+    <div class="column">
+      <h1 class="city">Discover Abuja</h1>
+        <p class="cityp">Africa's Fastest Growing City</p>
         <p class="cityp2">Abuja is the capital and eighth most populous city of Nigeria. Situated at the centre of the country 
-            within the Federal Capital Territory (FCT), it is a planned city built mainly in the 1980s based on 
-            a master plan by International Planning Associates (IPA), a consortium of three American planning and 
-            architecture firms made up of Wallace, Roberts, McHarg & Todd (WRMT – a group of architects) as the lead,
-             Archisystems International (a subsidiary of the Howard Hughes Corporation), and Planning Research 
-             Corporation.</p>
-  
-       <button class="buttonex">Learn More</button>
-   
-</div>
+          within the Federal Capital Territory (FCT), it is a planned city built mainly in the 1980s based on 
+          a master plan by International Planning Associates (IPA), a consortium of three American planning and 
+          architecture firms made up of Wallace, Roberts, McHarg & Todd (WRMT – a group of architects) as the lead,
+           Archisystems International (a subsidiary of the Howard Hughes Corporation), and Planning Research 
+           Corporation.</p>
+           <p><button class="discoverbutton">Disacover More</button></p>
+    </div>
+    <div class="column">
+      <span>
+        <picture>
+        <img class="imageabuja" src="images/abuja.webp" alt="Abuja Aerial View">
+        </picture>
+        </span>
+    </div>
 
-  
-</div>
+  	<div><h2 class="sightsound">SIGHTS AND SOUNDS OF ABUJA</h2></div>
+ <div class="sight-sound">
+    <div class="row2">
+      <div class="wuse">
+     <div class="gallery">
+          <a target="_blank" href="12apostles.webp">
+            <picture>
+              <img src="images/12apostles.webp" alt="National Christian Centre Abuja">
+         </picture>
+          </a>
+          <div class="desc">
+          <h2 class="h2title">The National Christian Centre</h2>
+          <p class="description">
+          The National Ecumenical Centre also known as National Christian Centre, is one of 
+          the largest Christian centres in Abuja.</p>
+          <p> <a class="btndiscover" href="#">Read More</a></p>
+           </div>
+        </div>
+    </div>
+      <div class="wuse">
+      <div class="gallery">
+          <a target="_blank" href="ecowas.webp">
+           <picture>
+              <img src="images/ecowas.webp" alt="ECOWAS Secretariat">
+         </picture>
+          </a>
+          <div class="desc">
+          <h2 class="h2title">ECOWAS Secretariat</h2>
+          <p class="description">
+          The Heads of State and Governments of fifteen West African Countries established the
+           Economic Community of West African States (ECOWAS) when they signed the ECOWAS Treaty
+            on the 28th of May 1975 in Lagos, Nigeria.</p>
+            <p><a class="btndiscover" href="https://ecowas.int/">Read More</a></p>
+          </div>
+        </div>
+    </div>
+    
+      <div class="wuse">
+    <div class="gallery">
+          <a target="_blank" href="sheraton.webp">
+            <picture>
+              <img src="images/sheraton.webp" alt="Sheraton Abuja Hotel">
+         </picture>
+          </a>
+          <div class="desc">
+          <h2 class="h2title">Sheraton Abuja Hotel</h2>
+          <p class="description">
+          Located in the heart of Abuja, Nigeria, Sheraton Abuja Hotel stands as a landmark 
+          welcoming visitors with friendly, professional staff and thoughtful amenities. Our 
+          luxury hotel is close to Abuja International Conference Centre...</p>
+          <p><a class="btndiscover"  href="https://www.marriott.com/en-us/hotels/abvsi-sheraton-abuja-hotel/overview/">Read More</a></p>
+          </div>
+        </div>
+    </div>
+      <div class="wuse">
+    <div class="gallery">
+          <a target="_blank" href="train.webp">
+            <picture>
+              <img src="images/train.webp" alt="Abuja Light Rail Transit">
+         </picture>
+          </a>
+          <div class="desc">
+          <h2 class="h2title">Abuja Rail Mass Transit</h2>
+          <p class="description">
+          Abuja Rail Mass Transit commonly known as Abuja Light Rail is a regional rail 
+          transport system in the Federal Capital Territory of Nigeria. It is the first 
+          rapid transit system in the country and in West Africa and the second such system
+           in sub-saharan Africa...</p>
+           <p><a class="btndiscover" href="#">Read More</a></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
 
 <div id="Directory" class="tabcontent">
   <h3>Directory</h3>
   <p>Who we are and what we do.</p>
 </div>
 
-<div id="Contactus" class="tabcontent">
+<div id="Join" class="tabcontent">
+  <h3>Join Us</h3>
+  <p>Join us today and create a niche.</p>
+</div>
+
+<div id="Contact" class="tabcontent">
   <h3>Contact Us</h3>
   <p>Get in touch, or swing by for a cup of coffee.</p>
-</div>
-
-<div id="Joinus" class="tabcontent">
-  <h3>Join Us</h3>
-  <p>Who we are and what we do.</p>
-</div>
-
-    
+</div> 
 
   
 
