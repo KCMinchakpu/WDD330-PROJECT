@@ -67,16 +67,94 @@
     <img class="slideimg"  src="images/slide_03.jpg" alt="Slide Image">
     <div class="slidecontent">
     <h1>DO BUSINESS</h1>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="weather">
+    <div class="weather-row">
+      <div class="weather-column">
+      <div class="welcome">
+            <h1 class="first-header">Welcome to AMCC</h1>
+            <img class="buja" src="images/wuseabuja.jpg" alt="Building in Wuse"/>
+            <p 	class="article">Welcome to the Provo City Chamber of Commerce! The purpose of this website is to provide a 
+              place for people to come together and build a healthy economy and impove the quality of life in 
+              the community. Here you will build partnerships and find ways to accomplish your goals. Here you
+              will find many different kinds of people from economic planners, business spokesmen, economic councilors and teachers,
+              members of the government and business owners all looking to build the city of Provo and cultivate the 
+              businesses that reside here. <a href="join.html">Apply now</a> to join the Chamber of Commerce!
+            </p>
+          </div>
+    
+    </div>
+      <div class="weather-column">
+        <ul id="weather-summary" class="article2">
+          <li class="table-header">Todays Weather Summary</li>
+          <li class="label">Currently:</li>
+          <li class="value"><span id="current-condition"></span></li>
+          <li class="label">Temperature:</li>
+          <li class="value"><span id="current-temp"></span>&#176;F</li>
+          <li class="label">Wind Chill:</li>
+          <li class="value"><span id="current-wind-chill"></span>&#176;F</li>
+          <li class="label">Humidity:</li>
+          <li class="value"><span id="current-humidity"></span>%</li>
+          <li class="label">Wind Speed:</li>
+          <li class="value"><span id="current-wind-speed"></span>mph</li>
+        </ul>
+    </div>
+    </div>
+
+  </div>
+  <div id="About" class="tabcontent">
+  <div class="about-section">
+    <h1>About Us Page</h1>
+    <p class="intro">Some text about who we are and what we do.</p>
+    <p>Resize the browser window to see that this page is responsive by the way.</p>
+  </div>
+  
+  <h2 class="leadership">Our Leadership</h2>
+  <div class="row">
+    <div class="about-column">
+      <div class="rain">
+        <img class="team" src="images/kay.jpg" alt="Kevin Cross Minchakpu">
+        <div class="container">
+          <h2 class="leadership2">Kevin Cross Minchakpu</h2>
+          <p class="title">Chairman</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>kevinomics101@gmail.com</p>
+          <p><button class="team-button">Contact</button></p>
+        </div>
       </div>
+    </div>
+  
+    <div class="about-column">
+      <div class="rain">
+        <img class="team" src="images/weinny.jpg" alt="Weinny">
+        <div class="container">
+          <h2 class="leadership2">Dorcas Zangam Daniel</h2>
+          <p class="title">Secretary</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>mike@example.com</p>
+          <p><button class="team-button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="about-column">
+      <div class="rain">
+        <img class="team" src="images/abaka.jpg" alt="Abaka">
+        <div class="container">
+          <h2 class="leadership2">Abaka Ebuga</h2>
+          <p class="title">PRO</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>john@example.com</p>
+          <p><button class="team-button">Contact</button></p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-</div>
 
-
-<div id="About" class="tabcontent">
-  <h3>About</h3>
-  <p>Who we are and what we do.</p>
-</div>
 
 <div id="Discover" class="tabcontent">
   <div class="row">
@@ -103,7 +181,7 @@
  <div class="sight-sound">
     <div class="row2">
       <div class="wuse">
-     <div class="gallery">
+     <div class="dew">
           <a target="_blank" href="12apostles.webp">
             <picture>
               <img src="images/12apostles.webp" alt="National Christian Centre Abuja">
@@ -119,7 +197,7 @@
         </div>
     </div>
       <div class="wuse">
-      <div class="gallery">
+      <div class="dew">
           <a target="_blank" href="ecowas.webp">
            <picture>
               <img src="images/ecowas.webp" alt="ECOWAS Secretariat">
@@ -137,7 +215,7 @@
     </div>
     
       <div class="wuse">
-    <div class="gallery">
+    <div class="dew">
           <a target="_blank" href="sheraton.webp">
             <picture>
               <img src="images/sheraton.webp" alt="Sheraton Abuja Hotel">
@@ -154,7 +232,7 @@
         </div>
     </div>
       <div class="wuse">
-    <div class="gallery">
+    <div class="dew">
           <a target="_blank" href="train.webp">
             <picture>
               <img src="images/train.webp" alt="Abuja Light Rail Transit">
@@ -171,13 +249,19 @@
     </div>
     </div>
     </div>
-    </div>
-    </div>
-    </div>
-
+  </div>
+</div>
+</div>
 <div id="Directory" class="tabcontent">
-  <h3>Directory</h3>
-  <p>Who we are and what we do.</p>
+  <h1 class="direct">DIrectory</h1>
+  <main id="directory">
+    <div id="btnContainer">
+      <button id="gridbtn" class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+      <button id="listbtn" class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
+      </div>
+      <hr>
+      <div class="dirgrid" id="companies"></div>
+   </main>
 </div>
 
 <div id="Join" class="tabcontent">
@@ -186,9 +270,67 @@
 </div>
 
 <div id="Contact" class="tabcontent">
-  <h3>Contact Us</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
-</div> 
+  <div class="contact-row">
+    <div class="contact-column">
+    <section id="contact">
+    <h1 class="section-header">Contact</h1>
+    <div class="contact-wrapper">
+    <!-- Left contact page --> 
+    <form id="contact-form" class="form-horizontal" role="form">
+    <div class="form-group">
+    <div class="col-sm-12">
+    <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+    </div>
+    </div>
+    
+    <div class="form-group">
+    <div class="col-sm-12">
+    <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+    </div>
+    </div>
+    
+    <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+    <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+    <div class="alt-send-button">
+    <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+    </div>
+    </button>
+    </form>
+    
+    </div>
+    <div class="contact-column">
+    <!-- Left contact page --> 
+    <div class="direct-contact-container">
+    <ul class="contact-list">
+    <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+    <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:234-806-813-3269" title="Give us a call">(234) 806-813369</a></span></i></li>
+    <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send us an email">amcc@gmail.com</a></span></i></li>
+    </ul>
+    <hr>
+    <ul class="social-media-list">
+    <li><a href="#" target="_blank" class="contact-icon">
+    <i class="fa fa-github" aria-hidden="true"></i></a>
+    </li>
+    <li><a href="#" target="_blank" class="contact-icon">
+    <i class="fa fa-codepen" aria-hidden="true"></i></a>
+    </li>
+    <li><a href="#" target="_blank" class="contact-icon">
+    <i class="fa fa-twitter" aria-hidden="true"></i></a>
+    </li>
+    <li><a href="#" target="_blank" class="contact-icon">
+    <i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </li>       
+    </ul>
+    <hr>
+    </div>
+    </div>
+    </section> 
+    </div>
+    </div>
+    </div>
+    </div>
+
+
 
   
 
@@ -213,7 +355,9 @@
 </section>
 </footer>
 <script src="js/slides.js"></script>
-<script src="js/topnav.js"></script>
+<script src="js/directory.js"></script>
 <script src="js/tabbedmenu.js"></script>
+<script src="js/live-weather-data-abuja.js"></script>
+<script src="js/forecasted-weather-data-abuja.js"></script>
 </body>
 </html>

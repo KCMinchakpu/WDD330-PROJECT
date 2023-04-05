@@ -144,7 +144,7 @@ footer {
     box-shadow: -1px -1px 10px 10px rgba(63, 65, 63, 0.5);
 	font-family: 'Lora', 'Arial', serif;
 	font-size: 0.8rem;
-	margin-top: 200px;
+	margin-top: 700px;
 
 }
 .logofooter img {
@@ -348,7 +348,7 @@ body, html {
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-  color: white;
+  color: gainsboro;
   display: none;
   padding: 50px 5px;
   height: 100%;
@@ -442,22 +442,22 @@ div.desc {
   }
   
   .sight-sound {
-	
+	margin-bottom: 90px;
 	margin-left: 10px;
 	margin-right: 10px;
 
   }
 
 
-  div.gallery {
+  div.dew {
 	border: 1px solid #ccc;
   }
   
-  div.gallery:hover {
+  div.dew:hover {
 	border: 1px solid #777;
   }
   
-  div.gallery img {
+  div.dew img {
 	width: 100%;
 	height: auto;
   }
@@ -521,4 +521,501 @@ div.desc {
   	text-decoration: none;
   	display: inline-block;
   	font-size: 16px;
+	align-content: center;
   }
+
+  /* About AMCC */
+  .about-column {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+  }
+  
+  .rain {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 8px;
+  }
+  
+  .about-section {
+	padding: 50px;
+	text-align: center;
+	background-color: #474e5d;
+	color: white;
+  }
+  
+  .container {
+	padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  .title {
+	color: grey;
+  }
+  
+  .about-button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+  }
+  
+  .about-button:hover {
+	background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+	.about-column {
+	  width: 100%;
+	  display: block;
+	}
+  }
+
+  .team {
+	width:100%;
+  }
+
+  .leadership {
+	text-align: center;
+	font-size: 35px;
+	color: #1e1e1e;
+  }
+
+  .leadership2 {
+	text-align: center;
+	color: #444;
+	font-size: 25px;
+  }
+
+  .team-button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+  }
+  
+  .team-button:hover {
+	background-color: yellowgreen;
+  }
+
+  .title {
+	color:#444;
+	text-align: center;
+  }
+
+  p {
+	color:#444;
+	text-align: justify;
+  }
+
+  .intro {
+	color:gainsboro;
+	text-align: justify;
+	font-size: 17px;
+  }
+
+/******* DIRECTORY PAGE ********/
+
+main#directory{
+    display: block;
+    margin:0 auto;
+    text-align: center;
+}  
+/* ------GRID----- */
+
+.dirgrid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+        max-width:1350px;
+        text-align: center;
+}
+
+.dirgrid section{
+    margin: 1rem;
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #555;
+    /* justify-items: center; */
+}
+
+.dirgrid section p{
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.dirgrid section p.name{
+    display: none;
+}
+
+.dirgrid section img{
+    margin-bottom: 15px;
+}
+/* -----LIST------ */
+
+.dirlist section{
+    display: block;
+    text-align: center;
+    line-height:1rem;
+    padding: 0.05rem;
+
+} 
+
+.dirlist img{
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom:0;
+}
+
+.dirlist section:nth-child(even){
+    background-color: #fff;
+}
+
+.dirlist section:nth-child(9){
+    margin-bottom: 25px;
+}
+
+.dirlist section:nth-child(1){
+    margin-top: 25px;
+}
+
+/* GRID/LIST BUTTONS */
+#btnContainer{
+    margin: auto auto auto auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+#listbtn{
+    margin-right: 20px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+  }
+
+.btn.active{
+    color: #fff;
+    background-color: #666;
+
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+
+  /* Contact Us */
+
+  #contact {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .section-header {
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px 0;
+	font: 300 60px 'Oswald', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+  }
+  
+  .contact-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+	max-width: 840px;
+  }
+  
+  /* Left contact page */
+  .form-horizontal {
+	/*float: left;*/
+	max-width: 400px;
+	font-family: 'Lato';
+	font-weight: 400;
+  }
+  
+  .form-control, 
+  textarea {
+	max-width: 400px;
+	background-color: #000;
+	color: #fff;
+	letter-spacing: 1px;
+  }
+  
+  .send-button {
+	margin-top: 15px;
+	height: 34px;
+	width: 400px;
+	overflow: hidden;
+	transition: all .2s ease-in-out;
+  }
+  
+  .alt-send-button {
+	width: 400px;
+	height: 34px;
+	transition: all .2s ease-in-out;
+  }
+  
+  .send-text {
+	display: block;
+	margin-top: 10px;
+	font: 700 12px 'Lato', sans-serif;
+	letter-spacing: 2px;
+  }
+  
+  .alt-send-button:hover {
+	transform: translate3d(0px, -29px, 0px);
+  }
+  
+  /* Begin Right Contact Page */
+  .direct-contact-container {
+	max-width: 400px;
+  }
+  
+  /* Location, Phone, Email Section */
+  .contact-list {
+	list-style-type: none;
+	margin-left: -30px;
+	padding-right: 20px;
+  }
+  
+  .list-item {
+	line-height: 4;
+	color: #aaa;
+  }
+  
+  .contact-text {
+	font: 300 18px 'Lato', sans-serif;
+	letter-spacing: 1.9px;
+	color: #bbb;
+  }
+  
+  .place {
+	margin-left: 62px;
+  }
+  
+  .phone {
+	margin-left: 56px;
+  }
+  
+  .gmail {
+	margin-left: 53px;
+  }
+  
+  .contact-text a {
+	color: #bbb;
+	text-decoration: none;
+	transition-duration: 0.2s;
+  }
+  
+  .contact-text a:hover {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  
+  /* Social Media Icons */
+  .social-media-list {
+	position: relative;
+	font-size: 22px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+  }
+  
+  .social-media-list li a {
+	color: #fff;
+  }
+  
+  .social-media-list li {
+	position: relative; 
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	margin: 10px 3px;
+	line-height: 60px;
+	border-radius: 50%;
+	color: #fff;
+	background-color: rgb(27,27,27);
+	cursor: pointer; 
+	transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 50%;
+	opacity: 0;
+	box-shadow: 0 0 0 1px #fff;
+	transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:hover {
+	background-color: #fff; 
+  }
+  
+  .social-media-list li:hover:after {
+	opacity: 1;  
+	transform: scale(1.12);
+	transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  }
+  
+  .social-media-list li:hover a {
+	color: #000;
+  }
+  
+  hr {
+	border-color: rgba(255,255,255,.6);
+  }
+  
+  /* Begin Media Queries*/
+  @media screen and (max-width: 850px) {
+	.contact-wrapper {
+	  display: flex;
+	  flex-direction: column;
+	}
+	.direct-contact-container, .form-horizontal {
+	  margin: 0 auto;
+	}  
+	
+	.direct-contact-container {
+	  margin-top: 60px;
+	  max-width: 300px;
+	}    
+	.social-media-list li {
+	  height: 60px;
+	  width: 60px;
+	  line-height: 60px;
+	}
+	.social-media-list li:after {
+	  width: 60px;
+	  height: 60px;
+	  line-height: 60px;
+	}
+  }
+  
+  @media screen and (max-width: 569px) {
+  
+	.direct-contact-container, .form-wrapper {
+	  float: none;
+	  margin: 0 auto;
+	}  
+	.form-control, textarea {
+	  
+	  margin: 0 auto;
+	}
+   
+	
+	.name, .email, textarea {
+	  width: 280px;
+	} 
+	
+	.direct-contact-container {
+	  margin-top: 60px;
+	  max-width: 280px;
+	}  
+	.social-media-list {
+	  left: 0;
+	}
+	.social-media-list li {
+	  height: 55px;
+	  width: 55px;
+	  line-height: 55px;
+	  font-size: 2rem;
+	}
+	.social-media-list li:after {
+	  width: 55px;
+	  height: 55px;
+	  line-height: 55px;
+	}
+	
+  }
+  
+  @media screen and (max-width: 410px) {
+	.send-button {
+	  width: 99%;
+	}
+  } 
+/* Weather Forecast */
+.weather {
+	background-color: #1e1e1e;
+	margin-top: 200px;
+	margin-bottom: 100px;
+	padding: 50px;
+	color: gainsboro;
+}
+
+.weather-column {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .weather-row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+.article {
+	color: gainsboro;
+	width: 83%;
+}
+
+.article2 {
+	background-color: #123456;
+	width: 50%;
+	border-radius: 15px;
+	padding: 30px;
+	margin-left: 100px;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+.value {
+	text-align: right;
+}
+
+.table-header {
+	text-align: center;
+	border-bottom: white solid 2px;
+	margin-bottom: 10px;
+}
+
+.first-header {
+	text-align: center;
+}

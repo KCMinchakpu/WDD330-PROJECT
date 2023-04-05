@@ -1,0 +1,76 @@
+{
+	"companies": [
+		{ 
+        "name": "Julius Berger Nigeria ",
+		"address":"10 Shettima A. Munguno Crescent, Utako 900 108, Abuja",
+		"phoneNumber":"080123456",
+		"website":"https://www.julius-berger.com/",
+		"icon":"json/JSONimages/berger.png",
+		"level": "Gold"
+		},
+	  {
+        "name":"Jumia",
+		"address":"1st Floor No. 16 Gwani Street Off IBB Way Wuse Zone 4 Abuja",
+		"phoneNumber":"080222333444",
+		"URL":"https://www.jumia.com.ng/",
+		"website":"json/JSONimages/jumia.png",
+		"level": "Gold"
+		},
+	  {
+        "name":"Sheraton Hotels Abuja",
+		"address":"# 1 Ladi Kwali Way, Central Area Maitama, Abuja",
+		"phoneNumber":"08034265874",
+		"URL":"https://sheratonabujahotel.com/",
+		"website":"json/JSONimages/AquaLink_Marine.webp",
+		"level": "Gold"
+		},
+	  {
+        "name":"SOUTECH Ventures",
+		"address":"Kano Street After Shehu Shagari Mosque, Area 1, Abuja.",
+		"phoneNumber":"08133325870",
+		"website":"https://www.soutechventures.com/",
+		"icon":"json/JSONimages/soutech.jpeg",
+		"level": "Bronze"
+		},
+	  {
+        "name":"Hilinks Network LTD",
+		"address":"B13 Othniel Plaza, Opposite NDE, Wuse Zone 1 Abuja",
+		"phoneNumber":"09123548790",
+		"website":"https://hilinksnetworks.ng/",
+		"icon":"json/JSONimages/hilinks.png",
+		"level": "Gold"
+		},
+	  {
+        "name":"Paradise Hills Estate",
+		"address":"Paradise Hills Estate Guzape, Asokoro Distric Abuja",
+		"phoneNumber":"0806669994587",
+		"website":"https://paradisehillsestate.com/",
+		"icon":"json/JSONimages/paradise.png",
+		"level": "Silver"
+		},
+	  {
+        "name":"Ubuntu Taxi Nigeria",
+		"address":"Abuja, Federal Capital Territory, Nigeria",
+		"phoneNumber":"081226655447",
+		"website":"https://www.linkedin.com/in/ubuntu-taxi-nigeria-968547223/",
+		"icon":"json/JSONimages/ubuntu.png",
+		"level": "Silver"
+		},
+	  {
+        "name":"A & T Saloon and Spa",
+		"address":"7 Lingu crescent, Wuse II 900100, Abuja, Abuja FCT.",
+		"phoneNumber":"070698745666",
+		"website":"https://atsaloon.com/",
+		"icon":"json/JSONimages/atsaloon.png",
+		"level": "Bronze"
+		},
+	  {
+        "name":"Limi Hospital",
+		"address":"Plot 541 Constitution Avenue Airport Road., Central Business District, Abuja",
+		"phoneNumber":"+234 802 361 6686",
+		"website":"https://limihospital.com/",
+		"icon":"json/JSONimages/limi.jpeg",
+		"level": "Bronze"
+	  }
+    ]
+   }
